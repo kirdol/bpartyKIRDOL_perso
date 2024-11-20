@@ -1,0 +1,31 @@
+Package: bpartyKIRDOL
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 1.2.0
+Authors@R: person("Lodrik", "Adam", email = "lodrik.adam@unil.ch", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line).
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/ptds2024/bpartyKIRDOL, https://ptds2024.github.io/bpartyKIRDOL/
+BugReports: https://github.com/ptds2024/bpartyKIRDOL/issues
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0)
+Imports:
+    httr,
+    jsonlite,
+    stats,
+    shiny,
+    ggplot2,
+    shinythemes,
+    here,
+    parallel,
+    purrr
+Suggests: 
+    testthat,
+    usethis,
+    pkgdown,
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
